@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eu">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="/images/panda.png" alt="Cade a imagem?" title="Logo do site">
+        </figure>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Info</a>
+            <a href="/index.html">Idoso</a>
+            <a href="#">Dicas</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="container">
+            <h2>Informações sobre o projeto</h2>
+            <p>
+                Este projeto utiliza funções e eventos de click com Javascript, com o objetivo de trazer mais
+                funcionalidade para páginas web.
+            </p>
+        </section>
+
+        <section>
+            <form class="form">
+
+                Número 1:<input type="number" id="n1" name="n1" required placeholder="Informe outro número">
+                Número 2:<input type="number" id="n2" name="n2" required placeholder="Informe outro número">
+
+                <input type="button" id="brn1" value="somar" onclick="Soma();">
+                <input type="button" id="brn2" value="subtrair" onclick="Sub();">
+                <input type="button" id="brn3" value="multiplicar" onclick="Multi();">
+                <input type="button" id="brn4" value="dividir" onclick="Divd();"> 
+                resultado: <input type="text" id="resultado" name="resultado">
+
+            </form>
+
+
+        </section>
+    </main>
+
+    <script src="/js/calc.js"></script>
+    
+    <footer>
+        <p>Eu &copy</p>
+    </footer>
+
+</body>
+
+</html>
